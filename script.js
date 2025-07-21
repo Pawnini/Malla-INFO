@@ -3,6 +3,9 @@ fetch('./ramos.json')
   .then(data => {
     const container = document.getElementById("malla-container");
 
+    // Leer ramos aprobados guardados
+    const aprobados = JSON.parse(localStorage.getItem("ramosAprobados") || "[]");
+
     // Agrupar ramos por semestre
     const semestres = {};
     data.forEach(ramo => {
@@ -26,6 +29,27 @@ fetch('./ramos.json')
         const bubble = document.createElement("div");
         bubble.className = "ramo";
         bubble.textContent = ramo;
+
+        // Restaurar si estaba aprobado
+        if (aprobados.includes(ramo)) {
+          bubble.classList.add("aprobado");
+        }
+
+        // Click para aprobar o desaprobar
+        bubble.addEventListener("click", () => {
+          bubble.classList.toggle("aprobado");
+
+          let actuales = JSON.parse(localStorage.getItem("ramosAprobados") || "[]");
+
+          if (bubble.classList.contains("aprobado")) {
+            if (!actuales.includes(ramo)) actuales.push(ramo);
+          } else {
+            actuales = actuales.filter(r => r !== ramo);
+          }
+
+          localStorage.setItem("ramosAprobados", JSON.stringify(actuales));
+        });
+
         col.appendChild(bubble);
       });
 
