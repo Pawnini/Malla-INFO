@@ -1,23 +1,37 @@
 fetch('./ramos.json')
   .then(response => response.json())
   .then(data => {
-    const container = document.getElementById('malla-container');
+    const container = document.getElementById("malla-container");
 
-    data.forEach((semestre, i) => {
-      const card = document.createElement('div');
-      card.className = 'semestre';
+    // Agrupar ramos por semestre
+    const semestres = {};
+    data.forEach(ramo => {
+      const sem = ramo.semestre;
+      if (!semestres[sem]) {
+        semestres[sem] = [];
+      }
+      semestres[sem].push(ramo.nombre);
+    });
 
-      const title = document.createElement('h2');
-      title.textContent = `Semestre ${i + 1}`;
-      card.appendChild(title);
+    // Crear columnas de semestres
+    Object.keys(semestres).sort((a, b) => a - b).forEach(semestre => {
+      const col = document.createElement("div");
+      col.className = "semestre";
 
-      semestre.forEach(ramo => {
-        const bubble = document.createElement('div');
-        bubble.className = 'ramo';
+      const title = document.createElement("h2");
+      title.textContent = `Semestre ${semestre}`;
+      col.appendChild(title);
+
+      semestres[semestre].forEach(ramo => {
+        const bubble = document.createElement("div");
+        bubble.className = "ramo";
         bubble.textContent = ramo;
-        card.appendChild(bubble);
+        col.appendChild(bubble);
       });
 
-      container.appendChild(card);
+      container.appendChild(col);
     });
+  })
+  .catch(error => {
+    console.error("Error cargando los datos:", error);
   });
