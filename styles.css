@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #fce4ec, #f8bbd0);
+  font-family: 'Chewy', cursive;
+  background: linear-gradient(to right, #fbe4ec, #f8dce5);
   color: #333;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 .ramo {
-  background-color: #d185a3;
+  background-color: #e49ab0;
   color: #fff;
   padding: 10px;
   border-radius: 25px;
@@ -49,9 +49,9 @@ h1 {
 /* Estilo para ramos aprobados */
 .ramo.aprobado {
   text-decoration: line-through;
-  background-color: #e6cdd3;
+  background-color: #d2c1c9;
   color: #7e4d5e;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 /* Hover suave */
