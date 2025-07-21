@@ -1,4 +1,4 @@
-fetch('ramos.json')
+fetch('./ramos.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('malla-container');
