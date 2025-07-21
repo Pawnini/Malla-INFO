@@ -45,6 +45,20 @@ h1 {
   transition: transform 0.2s;
 }
 
+.ramo {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Estilo para ramos marcados como aprobados */
+.ramo.aprobado {
+  text-decoration: line-through;      /* ← Tachar con línea */
+  background-color: #a5a5a5;          /* ← Color más suave */
+  color: white;                       /* ← Letra clara para contraste */
+  opacity: 0.8;
+}
+
+
 .ramo:hover {
   transform: scale(1.05);
   background-color: #7c3b56;
