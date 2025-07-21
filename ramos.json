@@ -1,237 +1,250 @@
 [
   {
     "semestre": 1,
-    "codigo": "MAT101",
-    "nombre": "Cálculo I"
+    "nombre": "Álgebra para Ingeniería"
   },
   {
     "semestre": 1,
-    "codigo": "INF101",
-    "nombre": "Introducción a la Informática"
+    "nombre": "Geometría para Ingeniería"
   },
   {
     "semestre": 1,
-    "codigo": "FIS101",
-    "nombre": "Física I"
+    "nombre": "Química para Ingeniería"
   },
   {
     "semestre": 1,
-    "codigo": "QUI101",
-    "nombre": "Química"
+    "nombre": "Introducción a la Programación"
   },
   {
     "semestre": 1,
-    "codigo": "COM101",
-    "nombre": "Comunicación Oral y Escrita"
+    "nombre": "Taller de Ingeniería: Introducción a la Profesión"
   },
   {
     "semestre": 2,
-    "codigo": "MAT102",
-    "nombre": "Cálculo II"
+    "nombre": "Comunicación Idioma Español"
   },
   {
     "semestre": 2,
-    "codigo": "INF102",
-    "nombre": "Programación I"
+    "nombre": "Álgebra Lineal para Ingeniería"
   },
   {
     "semestre": 2,
-    "codigo": "FIS102",
-    "nombre": "Física II"
+    "nombre": "Cálculo en una Variable"
   },
   {
     "semestre": 2,
-    "codigo": "ECO101",
-    "nombre": "Economía y Sociedad"
+    "nombre": "Educación Física y Salud"
   },
   {
     "semestre": 2,
-    "codigo": "IDI101",
-    "nombre": "Inglés I"
+    "nombre": "OFG 1"
+  },
+  {
+    "semestre": 2,
+    "nombre": "Programación"
+  },
+  {
+    "semestre": 2,
+    "nombre": "Taller de Ingeniería: Programación Aplicada"
   },
   {
     "semestre": 3,
-    "codigo": "MAT201",
-    "nombre": "Álgebra Lineal"
+    "nombre": "Física: Mecánica"
   },
   {
     "semestre": 3,
-    "codigo": "INF201",
-    "nombre": "Estructuras de Datos"
+    "nombre": "Comunicación Idioma Inglés"
   },
   {
     "semestre": 3,
-    "codigo": "INF202",
-    "nombre": "Sistemas Digitales"
+    "nombre": "Ecuaciones Diferenciales para Ingeniería"
   },
   {
     "semestre": 3,
-    "codigo": "INF203",
-    "nombre": "Programación II"
+    "nombre": "Cálculo en Varias Variables"
   },
   {
     "semestre": 3,
-    "codigo": "IDI102",
-    "nombre": "Inglés II"
+    "nombre": "Estructura de Datos y Algoritmos"
+  },
+  {
+    "semestre": 3,
+    "nombre": "Taller de Ingeniería: Estructura de Datos y Algoritmos"
   },
   {
     "semestre": 4,
-    "codigo": "MAT202",
-    "nombre": "Ecuaciones Diferenciales"
+    "nombre": "Física: Ondas y Electromagnetismo"
   },
   {
     "semestre": 4,
-    "codigo": "INF204",
-    "nombre": "Bases de Datos I"
+    "nombre": "Métodos Numéricos para Ingeniería"
   },
   {
     "semestre": 4,
-    "codigo": "INF205",
+    "nombre": "Estadística y Probabilidades para Ingeniería"
+  },
+  {
+    "semestre": 4,
+    "nombre": "Programación Orientada a Objeto"
+  },
+  {
+    "semestre": 4,
+    "nombre": "Estructuras Discretas"
+  },
+  {
+    "semestre": 4,
+    "nombre": "Taller de Construcción de Software"
+  },
+  {
+    "semestre": 5,
+    "nombre": "Inglés Instrumental"
+  },
+  {
+    "semestre": 5,
+    "nombre": "Práctica Inicial"
+  },
+  {
+    "semestre": 5,
+    "nombre": "Optativo de Especialización I"
+  },
+  {
+    "semestre": 5,
     "nombre": "Arquitectura de Computadores"
   },
   {
-    "semestre": 4,
-    "codigo": "INF206",
-    "nombre": "Desarrollo de Software"
-  },
-  {
-    "semestre": 4,
-    "codigo": "IDI103",
-    "nombre": "Inglés III"
+    "semestre": 5,
+    "nombre": "Base de Datos"
   },
   {
     "semestre": 5,
-    "codigo": "INF301",
-    "nombre": "Redes de Computadores"
+    "nombre": "Teoría de Autómatas"
   },
   {
     "semestre": 5,
-    "codigo": "INF302",
-    "nombre": "Ingeniería de Software I"
-  },
-  {
-    "semestre": 5,
-    "codigo": "INF303",
-    "nombre": "Programación Web"
-  },
-  {
-    "semestre": 5,
-    "codigo": "INF304",
-    "nombre": "Bases de Datos II"
-  },
-  {
-    "semestre": 5,
-    "codigo": "IDI104",
-    "nombre": "Inglés IV"
+    "nombre": "Diseño y Análisis de Algoritmos"
   },
   {
     "semestre": 6,
-    "codigo": "INF305",
+    "nombre": "Inglés Funcional"
+  },
+  {
+    "semestre": 6,
+    "nombre": "Programación en Paradigmas Funcional y Paralelo"
+  },
+  {
+    "semestre": 6,
     "nombre": "Sistemas Operativos"
   },
   {
     "semestre": 6,
-    "codigo": "INF306",
-    "nombre": "Gestión de Proyectos"
+    "nombre": "Investigación Operativa"
   },
   {
     "semestre": 6,
-    "codigo": "INF307",
-    "nombre": "Computación Gráfica"
+    "nombre": "Ingeniería de Requisitos"
   },
   {
     "semestre": 6,
-    "codigo": "INF308",
-    "nombre": "Desarrollo de Aplicaciones Móviles"
-  },
-  {
-    "semestre": 6,
-    "codigo": "OPT001",
-    "nombre": "Optativo I"
+    "nombre": "Arquitectura de Software"
   },
   {
     "semestre": 7,
-    "codigo": "INF401",
+    "nombre": "Optativo de Especialización II"
+  },
+  {
+    "semestre": 7,
+    "nombre": "Gestión Organizacional"
+  },
+  {
+    "semestre": 7,
+    "nombre": "Comunicaciones"
+  },
+  {
+    "semestre": 7,
+    "nombre": "Interacción Humano-Computador"
+  },
+  {
+    "semestre": 7,
+    "nombre": "Ingeniería de Software"
+  },
+  {
+    "semestre": 7,
     "nombre": "Inteligencia Artificial"
   },
   {
-    "semestre": 7,
-    "codigo": "INF402",
-    "nombre": "Ingeniería de Software II"
-  },
-  {
-    "semestre": 7,
-    "codigo": "INF403",
-    "nombre": "Sistemas Embebidos"
-  },
-  {
-    "semestre": 7,
-    "codigo": "INF404",
-    "nombre": "Minería de Datos"
-  },
-  {
-    "semestre": 7,
-    "codigo": "OPT002",
-    "nombre": "Optativo II"
+    "semestre": 8,
+    "nombre": "Optativo de Especialización III"
   },
   {
     "semestre": 8,
-    "codigo": "INF405",
-    "nombre": "Seguridad Informática"
+    "nombre": "Evaluación de Proyectos Informáticos"
   },
   {
     "semestre": 8,
-    "codigo": "INF406",
-    "nombre": "Taller de Innovación"
+    "nombre": "Redes"
   },
   {
     "semestre": 8,
-    "codigo": "INF407",
-    "nombre": "Cómputo de Alto Rendimiento"
+    "nombre": "Sistemas de Información"
   },
   {
     "semestre": 8,
-    "codigo": "OPT003",
-    "nombre": "Optativo III"
+    "nombre": "Seminario de Ética Profesional"
   },
   {
     "semestre": 8,
-    "codigo": "OPT004",
-    "nombre": "Optativo IV"
+    "nombre": "Taller de Ingeniería de Software"
   },
   {
     "semestre": 9,
-    "codigo": "INF501",
-    "nombre": "Gestión de TI"
+    "nombre": "Optativo de Profundización I"
   },
   {
     "semestre": 9,
-    "codigo": "INF502",
-    "nombre": "Taller de Proyecto de Título I"
+    "nombre": "Taller de Emprendimiento"
   },
   {
     "semestre": 9,
-    "codigo": "OPT005",
-    "nombre": "Optativo V"
+    "nombre": "Sistemas de Gestión"
+  },
+  {
+    "semestre": 9,
+    "nombre": "Sistemas Distribuidos"
+  },
+  {
+    "semestre": 9,
+    "nombre": "Taller de Integración de Tecnología de la Información y Comunicación"
+  },
+  {
+    "semestre": 9,
+    "nombre": "Métodos y Modelos de Ingeniería de Software"
   },
   {
     "semestre": 10,
-    "codigo": "INF503",
-    "nombre": "Taller de Proyecto de Título II"
+    "nombre": "Optativo de Profundización II"
   },
   {
     "semestre": 10,
-    "codigo": "OPT006",
-    "nombre": "Optativo VI"
+    "nombre": "Tecnología de la Información para la Gestión Organizacional"
   },
   {
     "semestre": 10,
-    "codigo": "INF504",
-    "nombre": "Ética Profesional"
+    "nombre": "Realidad Tecnológica Nacional"
+  },
+  {
+    "semestre": 10,
+    "nombre": "Taller de Título"
   },
   {
     "semestre": 11,
-    "codigo": "INF505",
     "nombre": "Práctica Profesional"
+  },
+  {
+    "semestre": 11,
+    "nombre": "Proyecto de Título: Artículo de Investigación"
+  },
+  {
+    "semestre": 11,
+    "nombre": "Proyecto de Título: Memoria"
   }
 ]
