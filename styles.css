@@ -1,0 +1,73 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+#malla-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 20px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.semestre {
+  background: #ffffffee;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.semestre h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.ramo {
+  background: #d87093;
+  color: white;
+  padding: 10px 8px;
+  margin: 8px 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ramo:hover {
+  background: #c7577b;
+  transform: scale(1.03);
+}
+
+.ramo.aprobado {
+  background: #7ac36a;
+}
