@@ -1,73 +1,51 @@
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #fdfbfb, #ebedee);
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  min-height: 100vh;
-  padding: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e7d7dc, #d3c3c9);
+  color: #333;
 }
 
 h1 {
   text-align: center;
-  font-size: 28px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  color: #333;
+  margin-top: 30px;
+  font-size: 2rem;
+  color: #2c2c2c;
 }
 
 #malla-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 20px;
-  padding-bottom: 20px;
-  max-width: 95%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .semestre {
-  background: #ffffffee;
-  border-radius: 16px;
-  padding: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  min-width: 200px;
-  flex-shrink: 0;
+  background: #f2f2f2;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 12px;
-  color: #444;
+  margin-bottom: 15px;
+  color: #222;
 }
 
 .ramo {
-  background: #d87093;
-  color: white;
-  padding: 10px 8px;
+  background-color: #9a5873;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
   margin: 8px 0;
-  border-radius: 20px;
   text-align: center;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 0.95rem;
+  transition: transform 0.2s;
 }
 
 .ramo:hover {
-  background: #c7577b;
-  transform: scale(1.03);
-}
-
-.ramo.aprobado {
-  background: #7ac36a;
+  transform: scale(1.05);
+  background-color: #7c3b56;
 }
