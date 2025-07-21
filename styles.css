@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #e7d7dc, #d3c3c9);
+  background: linear-gradient(to right, #fce4ec, #f8bbd0);
   color: #333;
 }
 
@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   margin-top: 30px;
   font-size: 2rem;
-  color: #2c2c2c;
+  color: #4e2c3e;
 }
 
 #malla-container {
@@ -22,7 +22,7 @@ h1 {
 }
 
 .semestre {
-  background: #f2f2f2;
+  background: #fdecef;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -31,31 +31,33 @@ h1 {
 .semestre h2 {
   text-align: center;
   margin-bottom: 15px;
-  color: #222;
+  color: #8c4150;
 }
 
 .ramo {
-  background-color: #9a5873;
+  background-color: #d185a3;
   color: #fff;
   padding: 10px;
   border-radius: 25px;
   margin: 8px 0;
   text-align: center;
   font-size: 0.95rem;
-  transition: transform 0.2s;
-}
-
-.ramo {
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-/* Estilo para ramos marcados como aprobados */
+/* Estilo para ramos aprobados */
 .ramo.aprobado {
-  text-decoration: line-through;      /* ← Tachar con línea */
-  background-color: #a5a5a5;          /* ← Color más suave */
-  color: white;                       /* ← Letra clara para contraste */
-  opacity: 0.8;
+  text-decoration: line-through;
+  background-color: #e6cdd3;
+  color: #7e4d5e;
+  opacity: 0.85;
+}
+
+/* Hover suave */
+.ramo:hover {
+  transform: scale(1.05);
+  background-color: #ba5f84;
 }
 
 
