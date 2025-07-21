@@ -1,10 +1,12 @@
 body {
   margin: 0;
   font-family: 'Chewy', cursive;
-  background: linear-gradient(to right, #fbe4ec, #f8dce5);
+  background-image: url('fondo.jpg');  /* ← aquí va el nombre del archivo de imagen */
+  background-size: cover;              /* la imagen se ajusta para cubrir toda la pantalla */
+  background-position: center;         /* centrada */
+  background-repeat: no-repeat;        /* no se repite */
   color: #333;
 }
-
 h1 {
   text-align: center;
   margin-top: 30px;
